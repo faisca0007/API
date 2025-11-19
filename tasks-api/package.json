@@ -1,0 +1,49 @@
+{
+  "nome": "projetos-api",
+  "versao": "1.0.0",
+  "descricao": "Uma API RESTful para gerenciar tarefas com autenticação de usuário",
+  "principal": "server.js",
+  "scripts": {
+    "iniciar": "node server.js",
+    "dev": "nodemon server.js",
+    "desenvolvimento": "nodemon server.js",
+    "teste": "jest",
+    "teste:assistir": "jest --watch"
+  },
+  "palavrasChave": [
+    "api",
+    "express",
+    "mongodb",
+    "jwt",
+    "tarefas"
+  ],
+  "autor": "",
+  "licenca": "ISC",
+  "dependencias": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "jest": "^30.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.20.0",
+    "supertest": "^7.1.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.20.0",
+    "supertest": "^7.1.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
