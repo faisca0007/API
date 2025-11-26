@@ -7,8 +7,7 @@
     "iniciar": "node server.js",
     "dev": "nodemon server.js",
     "desenvolvimento": "nodemon server.js",
-    "teste": "jest",
-    "teste:assistir": "jest --watch"
+    "test": "jest --watch"
   },
   "palavrasChave": [
     "api",

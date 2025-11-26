@@ -6,7 +6,7 @@ const {
   criarProjeto,
   atualizarProjeto,
   excluirProjeto
-} = require('../controllers/taskController');
+} = require('../controllers/ProjetoController');
 const autenticacao = require('../middleware/auth');
 const {
   validarCriacaoProjeto,

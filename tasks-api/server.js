@@ -52,8 +52,8 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(especificacaoSwagger));
 const rotasUsuario = require('./routes/userRoutes');
 const rotasProjeto = require('./routes/taskRoutes');
 
-app.use('/api/usuarios', rotasUsuario);
-app.use('/api/tarefas', rotasProjeto);
+app.use('/api/users', rotasUsuario);
+app.use('/api/projetos', rotasProjeto);
 
 // Rota de saúde
 app.get('/api/saude', (req, res) => {
